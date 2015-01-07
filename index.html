@@ -12,6 +12,23 @@
 	<body>
 		<div class='container-fluid'>
 		<h1>Hello World</h1>
+		
+		<div>
+			<ul class="nav nav-tabs" role="tablist" id="myTab">
+				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+				<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+				<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+				<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="home">Hi</div>
+				<div role="tabpanel" class="tab-pane" id="profile">About Me</div>
+				<div role="tabpanel" class="tab-pane" id="messages">Message</div>
+				<div role="tabpanel" class="tab-pane" id="settings">Help</div>
+			</div>
+		</div>
+		
 		<div class='row'>
 			<div class='col-md-4'>
 				<h2>Something</h2>
@@ -28,11 +45,12 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget ornare felis. In molestie, nibh eget egestas maximus, est odio finibus elit, at cursus elit augue a nulla. Duis in mi et purus lacinia mollis eget feugiat turpis. Suspendisse tincidunt tellus at magna maximus, lacinia ultrices dolor pulvinar. Suspendisse dictum velit ut odio convallis, sed ornare mi tristique. Mauris vulputate volutpat erat rhoncus congue. Nunc luctus rhoncus molestie. Duis suscipit neque sit amet dignissim convallis.</p>
 			</div>
 		</div>
-			<div>
-				<script src='js/jquery.js'></script>
-				<script src='dist/js/bootstrap.js'></script>
-				<script src='js/script.js'></script>
-			</div>
+			
+		<div>
+			<script src='js/jquery.js'></script>
+			<script src='dist/js/bootstrap.js'></script>
+			<script src='js/script.js'></script>
+		</div>
 		</div>
 	</body>
 </html>
